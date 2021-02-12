@@ -128,24 +128,7 @@ print(message_to_candidate)
 message_to_candidate = (
     f"You received {candidate_votes:,} number of votes. "
     f"The total number of votes in the election was {total_votes:,}. "
-    f"You received {candidate_votes / total_votes * 100:.2f}% of the total votes.")
-#For data practice
-#Assign a varibale for the file to load and the path.
-file_to_load = 'Resources/election_results.csv'
+    f"You received {candidate_votes / total_votes * 100:.2f}% of the total votes.")                                         
 
-#Using with statement to open file instesd of open()and close() functions -> with open(filename) as file_variable:
-## Open the election results and read the file.
-with open(file_to_load) as election_data:
-    #To do: perform analysis.
-    print(election_data)
 
-# Code to open a file to write code in new cleaner code in Py.Polly.py
-#Before running the code below, first create new folder called "analysis" within folder election_analysis.
-# Create a filename variable to a direct or indirect path to the file.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
-# Using the open() function with the "w" mode we will write data to the file.
-outfile = open(file_to_save, "w")
-#Write data to the file
-outfile.write("What's up peeps")
-#Close the file
-outfile.close() 
+    
