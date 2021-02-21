@@ -1,6 +1,6 @@
 # Election_Analysis
 ## Purpose of Analysis
-The purpose of this election analysis audit is to be presented to the Colorado Board of Elections. 
+The purpose of this election analysis audit, is to be presented to the Colorado Board of Elections. 
 
 Requested data by the election commission:
 - *Candidate data*
@@ -44,8 +44,8 @@ Winning Vote Count: 272,892
 Winning Percentage: 73.8%
 ```
 ## Election-Audit Summary
-This python script not only works efficiently with this election audit in finding candidate and county results but will work with any election. With slight modification to the code, you can change the script to your preference. For example:
-- You can remove code to only find specific candidate data, or specific county data. For instance, if you only want to look at information on the candidates, simply take out the `for` loop that is extracting county data. Or if the data has states included, you can add another `for` loop within the script to now look through three different categories. 
-- You can alter the way you would like the text file to show the results of any election by using other formating code. 
+This python script not only works efficiently with this election audit in finding candidate and county results, but will work with any election. With slight modification to the code, you can change the script to your preference. For example:
+- Remove code to only find specific candidate data, or specific county data. For instance, if you only want to look at information on the candidates, simply take out the `for` loop that is extracting county data. Or if the data has US States included, you can add another `for` loop within the script to now look through three different categories. 
+- Alter the way you would like the text file to show the results of any election, by using other formating code. 
 - You can also switch value names and variable names to best suit the election.
 
