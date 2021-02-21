@@ -12,7 +12,10 @@ Requested data by the election commission:
    - The vote turnout for each county 
    - Percentage of votes from each county out of the total count
    - Lastly, the county with the highest turnout. 
-   
+### Find python script and text file here:
+[`PyPoll_Challenge.py`](https://github.com/Ariannatopbjerg/Election_Analysis/blob/main/PyPoll_Challenge.py)
+[`election_analysis.txt`](https://github.com/Ariannatopbjerg/Election_Analysis/tree/main/analysis)
+
 ## Resources
 Python 3.9.0 & Visual Studio Code 1.53
 
